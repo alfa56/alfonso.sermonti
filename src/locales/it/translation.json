@@ -1,0 +1,476 @@
+{
+    "menu": {
+        "home": "home",
+        "about": "profilo",
+        "resume": "esperienze",
+        "international": "esperto internazionale",
+        "teacher": "insegnamento",
+        "portfolio": "portfolio",
+        "blog": "blog",
+        "contact": "contatti"
+    },
+    "home": {
+        "text": "- Esperienza approfondita come sviluppatore web, utilizzando tutte le tecnologie più recenti. Linguaggi utilizzati: PHP, Python, Javascript (Bootstrap , jQuery, Angular, React, NextJS)\n- IT Expert, Project Manager per conto del MAE/DGCS e della Comunità Europea\n- Vasta esperienza su sistemi operativi, tecnologie web, linguaggi di sviluppo e applicazioni\n- Esperienza notevole in applicazioni basate su database SQL\n- Approfondita esperienza nella gestione e pubblicazione web, nella preparazione e inserimento di contenuti e nello sviluppo di piattaforme backoffice e frontoffice.\n- Sviluppatore di framework PHP per lo sviluppo web\n",
+        "skills": "Competenze"
+    },
+    "about": {
+        "about": "Profilo",
+        "iam": "Sono",
+        "aboutContent": "Dopo una vita passata al centro di Roma, mi sono trasferito in un borgo da fiaba a una quarantina di chilometri dalla città, dove si gira senza macchina, e dalla finestra ammiro verdi boscaglie. Dato che ho sempre amato il mio lavoro, che mi ha permesso di vivere ovunque desiderassi, ho intenzione di continuare così, curioso verso tutte le nuove tecnologie, desideroso di imparare nuovi linguaggi e approfondire le conoscenze. Di conseguenza sono aperto ad ogni collaborazione, breve o lunga, a contratto o assunzione, purché il progetto sia interessante e il cliente abbia a cuore i rapporti umani. Da parte mia garantisco il massimo impegno e - come durante tutta la mia carriera - competenza e professionalità",
+        "name": "Nome",
+        "age": "Età",
+        "phone": "Telefono",
+        "nationality": "Nazionalità",
+        "nationalityText": "Italiana, svizzera",
+        "address": "Indirizzo",
+        "email": "E-mail",
+        "status": "Status",
+        "freelanceStatus": "Disponibile",
+        "educationTitle": "Educazione",
+        "education": "Classical high school diploma at Liceo Virgilio, Rome; Degree from the University of Perugia in Agricultural Sciences",
+        "downloadcv": "Scarica CV",
+        "languages": "Lingue",
+        "italian": "Italiano",
+        "english": "Inglese",
+        "french": "Francese",
+        "portuguese": "Portoghese",
+        "spanish": "Spagnolo",
+        "read": "Comprensione",
+        "written": "Scritto",
+        "spoken": "Parlato",
+        "oral": "Produzione orale",
+        "ascolto": "Ascolto",
+        "lettura": "Lettura",
+        "interazione": "Interazione",
+        "cvfile": "/files/Sermonti_Alfonso_IT.pdf"
+    },
+    "contact": {
+        "getintouch": "Contattatemi",
+        "yourname": "Inserite il vostro nome",
+        "youremail": "Inserite la vostra email",
+        "yoursubject": "Inserite l'oggetto",
+        "yourmessage": "Inserite il messaggio",
+        "send": "Invia il messaggio",
+        "namerequired": "Il nome è obbligatorio",
+        "emailrequired": "L'email è obbligatoria",
+        "subjectrequired": "L'oggetto è obbligatorio",
+        "messagerequired": "Il messaggio è obbligatorio",
+        "sentmessage": "Il messaggio stato inviato",
+        "senderror": "Si è verificato un errore nell'invio del messaggio"        
+    },
+    "experience": [
+        {
+        "id": 0,
+        "year": "2024 -",
+        "position": "Software developer/analyst",
+        "company": "Broxlab srl (Potenza)",
+        "location": "da remoto",
+        "details": "Gestione del backend di una piattaforma proprietaria per conto di Maersk Italia. La piattaforma, che consta di numerose app, si occupa di tutti gli aspetti relativi ad un cantiere (personale, veicoli, attrezzature, sicurezza, rilievi etc.). L’applicazione è stata realizzata interamente in PHP, con l’ausilio di Javascript/JQuery, su database MySQL; come framework CSS è stato utilizzato Bootstrap."
+        },
+        {
+        "id": 1,
+        "year": "2023 - 2024",
+        "position": "Frontend software developer/analyst",
+        "company": "Rixalto Group SA (Stabio - CH)",
+        "location": "da remoto",
+        "details": "Refactoring del frontend del software CercaOra.\nIl software possiede una struttura simile ad Immobiliare.it, ma è orientato essenzialmente alle agenzie immobiliari.\nIl frontend prevede una ricerca progressiva all’interno di un database MySQL, e la visualizzazione parziale dei risultati sia in forma tabulare che su mappa. A questo punto l’utente potrà acquistare pacchetti di indirizzi, per i propri utilizzi.\nTecnicamente, il frontend è stato realizzato in next.js. Come framework CSS è stato utilizzato TailwindCSS. Attraverso API si connette con il backend, realizzato in PHP, responsabile delle interrogazioni al database MySQL. La visualizzazione su mappa utilizza le API di OpenStreetMap."
+        },
+        {
+        "id": 2,
+        "year": "2021 - 2023",
+        "position": "Backend/frontend Web Developer, PHP Developer",
+        "company": "Acrmnet srl (Roma)",
+        "location": "da remoto",
+        "details": "- Gestione del frontend della piattaforma Pitagora, per l'organizzazione di dati, e la loro rappresentazione in varie modalità (tabelle, mappe, grafici), oltre alla predisposizione di servizi per l’acquisizione di segnali esterni e al collegamento col backend, sviluppato in Java/MySQL. Il frontend è stato realizzato in Angular (v. 13/14), node.js, Typescript, nonché  Javascript, per alcuni moduli (ad es. xeokit, che è il motore di visualizzazione e gestione dei BIM, è interamente realizzato in JS). In alcuni casi è anche stato utilizzato Jquery. Come framework per la UI si è utilizzato prevalentemente bootstrap (v. 4), in certi moduli Angular Material.\n- Sviluppo backend/frontend dell’applicazione H&D Platform. L’applicazione permette di gestire le varie categorie di bonus in ambiente edilizio, ponendosi come hub tra aziende, installatori e professionisti per la preventivazione e la fatturazione dei vari lavori. In particolare, la mia attività si è concentrata sulla gestione del tool di fatturazione e sulla connessione con l’esistente piattaforma di H&D (sviluppata in SugarCRM su PHP, alla cui gestione dei moduli ho collaborato) per l’importazione e la gestione dei dati relativi a pratiche, anagrafiche e prefatture. Tecnologie usate per l’applicazione: Python, Javascript (Jquery), MySQL. Come UI è utilizzato bootstrap (v. 4)\n- Unoenergy - Gestione delle chiamate SOAP provenienti dal cliente, relative a lettere di sollecito per mancati pagamenti, invio allo stampatore delle lettere uniformate in formato PDF unitamente a cover letter creata ad hoc, gestione della ricezione delle ricevute delle raccomandate e reinvio (sempre tramite chiamate SOAP) al cliente dei risultati. Tecnologie usate per l’applicazione: PHP (framework Laravel), Javascript (Jquery), MySQL."
+        },
+        {
+        "id": 3,
+        "year": "2018 - 2021",
+        "position": "Backend/frontend Web Developer, PHP Developer",
+        "company": "Land srl (Roma)",
+        "location": "in sede / da remoto",
+        "details": "Analisi, modifiche e refactoring del frontend e del backend dell’applicazione HappySign. HappySign si occupa del processo di firma elettronica attraverso l’apposizione sul documento di un QRCode e la creazione di un PDF immodificabile e certificato, in linea con la legislazione corrente, utilizzabile in qualsiasi transazione, sia sul sito web che tramite un’app dedicata. Tecnologie utilizzate per l’applicazione web: PHP, su framework CodeIgniter, Javascript(Jquery), SQL (Postgres)"
+        },
+        {
+        "id": 4,
+        "year": "2017 - 2018",
+        "position": "Backend Web Developer, PHP Developer",
+        "company": "Storelink srl (Roma)",
+        "location": "in sede",
+        "details": "Analisi, modifiche e refactoring dell’applicazione intranet di Geko spa. L’applicazione è realizzata in PHP/jquery, su server SQLServer, e il mio intervento è consisito nell’uniformazione delle funzionalità attuali tramite l’inserimento in un framework custom, oltre alla gestione del report delle attività e all’inserimento di nuove funzionalità, quali la gestione del recupero crediti.\nTecnologie utilizzate per l’applicazione web: PHP, Javascript(Jquery), SQL (SQLServer)"
+        },
+        {
+        "id": 5,
+        "year": "2015 - 2017",
+        "position": "Backend/frontend Web Developer, PHP Developer",
+        "company": "Gemm srl (Roma)",
+        "location": "in sede / da remoto",
+        "details": "Concezione, analisi e realizzazione di un’applicazione web-based, su un framework PHP custom da me realizzato, in ambiente social (www.ciaoexperience.com), incluse API per il collegamento con un’app realizzata ad hoc da terzi (sia su ambiente iOs che android). L’applicazione è stata realizzata originariamente in angularJS, poi angular 2 (versioni precedenti alla 7); per maggior stabilità si è deciso infine di utilizzare tecnologia LAMP (Linux-Apache-MySQL-PHP). Il frontend utilizza estensivamente bootstrap (v. 3), con ovvio supporto di Javascript/jQuery"
+        },
+        {
+        "id": 6,
+        "year": "2010 - 2015",
+        "position": "Web Developer, PHP Developer",
+        "company": "Polisnet srl (Roma)",
+        "location": "on site",
+        "details": "Concezione, analisi e realizzazione di applicazioni web-based, utilizzando principalmente tecnologia LAMP (Linux-Apache-MySQL-PHP), su un framework PHP custom da me realizzato (openPHP), per lo sviluppo di un Sistema Integrato Ospedaliero. Le applicazioni sono state sviluppate in PHP, col supporto di Javascript (jQuery, Mootools, Prototype), Flash, CSS, Ajax. \nI principali clienti sono stati:\n- ASL Roma G, per lo sviluppo del SIO / SIT (Sistema Integrato Ospedaliero / Sistema Integrato Territoriale)\n- ARES 118, per l'integrazione nel SIO di un'applicazione per la gestione del Telemonitoraggio.\n- ASL Roma E, per lo sviluppo del SIO/IM (Sistema Integrato Ospedaliero / Intramoenia)"
+        },
+        {
+        "id": 7,
+        "year": "2007 - 2015",
+        "position": "Web Developer, PHP Developer",
+        "company": "Freelancer",
+        "location": "in sede / da remoto",
+        "details": "Concezione, analisi e realizzazione di applicazioni web-based, utilizzando principalmente tecnologia LAMP (Linux-Apache-MySQL-PHP), con l’ausilio di CMS (Drupal, Textpattern) e framework ad hoc. Le applicazioni sono state sviluppate in PHP, col supporto di Javascript (jQuery, Mootools, Prototype), Flash, CSS, linguaggi di templating (Smarty, RainTPL, Outline, TAL), Ajax. \nI principali clienti sono stati:\n- SD Cinematografica (www.sdcinematografica.com)\n- Dipartimento delle Politiche Comunitarie\n- Cartoon on the Bay (RAI)\n- Best Western\n- Kartos\n- Tecnobios\n- Regioni (www.regioni.it)"
+        },
+        {
+        "id": 8,
+        "year": "2004 - 2006",
+        "position": "Web Developer, PHP Developer",
+        "company": "Università La Sapienza di Roma",
+        "location": "da remoto",
+        "details": "Sviluppo, gestione e manutenzione sito del progetto Delos dell’Università La Sapienza di Roma (delos.dis.uniroma1.it), utilizzando il CMS Microsoft Share Point Server"
+        },
+        {
+        "id": 9,
+        "year": "2003 - 2004",
+        "position": "Web Developer, PHP Developer",
+        "company": "Freelancer",
+        "location": "da remoto",
+        "details": "Sviluppo del sito della Provincia di Latina (www.provincia.latina.it), utilizzando PHP, attraverso la customizzazione e personalizzazione del CMS PHP-Nuke"
+        },
+        {
+        "id": 10,
+        "year": "2000 - 2004",
+        "position": "Web Developer, PHP Developer",
+        "company": "Freelancer",
+        "location": "da remoto",
+        "details": "Sviluppo di applicazioni su Internet (agende elettroniche, software per il commercio elettronico), utilizzando tecnologia ASP (SQL/VBScript) oppure linguaggio PHP\nPrincipali clienti: \n- Marketing&Telematica (Milano) \n- Enoagraria (Roma) \n- Verduci Editore (Roma)"
+        },
+        {
+        "id": 11,
+        "year": "2001",
+        "position": "Web Developer, VBScript Developer",
+        "company": "Freelancer",
+        "location": "da remoto",
+        "details": "Realizzazione, gestione, implementazioni tecniche e manutenzione del sito ad argomento sportivo LazioNet/LazioCity, realizzato su Windows NT, utilzzando SQL Server 7.0 come database e VBScript/Jscript come linguaggio di sviluppo"
+        },
+        {
+        "id": 12,
+        "year": "2000 - 2002",
+        "position": "Network manager",
+        "company": "IRCSS S.Lucia",
+        "location": "in sede",
+        "details": "Installazione di reti locali miste di media dimensione"
+        },
+        {
+        "id": 13,
+        "year": "1998",
+        "position": "Web Developer",
+        "company": "Trainet - gruppo Telecom (Roma)",
+        "location": "in sede",
+        "details": "Realizzazione ed amministrazione di sistemi client/server"
+        },
+        {
+        "id": 14,
+        "year": "1997 - 1998",
+        "position": "Funzionario commerciale",
+        "company": "Unidata spa (Roma)",
+        "location": "in sede",
+        "details": "Funzionario commerciale, responsabile area Internet presso l’Unidata spa, Roma (Hardware Manufacturer e Internet Service and Access Provider)"
+        },
+        {
+        "id": 15,
+        "year": "1995 - 1997",
+        "position": "Technical manager, Web Developer",
+        "company": "Area Network & Communications srl (Roma)",
+        "location": "in sede",
+        "details": "Socio, technical manager e sviluppatore web di Area Network & Communications srl, Roma (Internet Service and Access Provider)"
+        },
+        {
+        "id": 16,
+        "year": "1990 - 2000",
+        "position": "Trainer, Technical assistance",
+        "company": "Freelancer",
+        "location": "presso il cliente",
+        "details": "Progettazione e realizzazione di corsi su sistemi operativi (Mac OS e Win NT), architetture client/server e linguaggi di sviluppo (PHP. C, 4th Dimension)\nprincipali clienti:\n- Krenesiel gruppo Finsiel\n- Ancitel\n- CNR/IME\n- CONI/ACNOE\n- Link srl"
+        },
+        {
+        "id": 17,
+        "year": "1990 - 1997",
+        "position": "Software developer",
+        "company": "Freelancer",
+        "location": "da remoto / presso il cliente",
+        "details": "Analisi, progettazione e sviluppo di software applicativo su commessa, nel campo gestionale, inclusa documentazione e manuali di utilizzo\nPrincipali clienti:\n- CNR/IME\n- ELF Petroli\n- Ministero per il Mezzogiorno\n- LUISS\n- Tirrena Assicurazioni"
+        },
+        {
+        "id": 18,
+        "year": "1985 - 1990",
+        "position": "Software developer",
+        "company": "Freelancer",
+        "location": "da remoto / presso il cliente",
+        "details": "Programmatore free-lance, sviluppatore di soluzioni gestionali custom"
+        },
+        {
+        "id": 19,
+        "year": "1978 - 1985",
+        "position": "Agronomo",
+        "company": "Studio Sermonti (Roma)",
+        "location": "in sede",
+        "details": "Agronomo presso lo Studio Sermonti, Roma (Studio professionale agronomico)"
+        }
+    ],
+    "international": [
+        {
+        "id": 1,
+        "year": "2008",
+        "position": "IT Expert",
+        "company": "Ministero per gli Affari Esteri - DGCS",
+        "location": "Maputo - Mozambico",
+        "details": "Esperto IT in Mozambico per conto del Ministero degli Esteri-DGCS per l’analisi e la formulazione dei seguenti progetti informatici:\n- Catasto: studio di fattibilità e analisi dei costi per la seconda fase del progetto: aggiornamento dell’attuale piattaforma di acquisizione informazioni, digitalizzazione dati catastali, formazione del personale e ammodernamento apparecchiature\n- UMICT (Unidad Movel ICT): studio di fattibilità e analisi dei costi per la realizzazione di un’unità mobile, per la alfabetizzazione informatica e telematica nelle zone più disagiate\n- Censimento: analisi dei costi sostenuti nell’ambito del progetto Censimento, già realizzato\n- Studio di fattibilità sulle possibili ulteriori estensioni del progetto GovNet (fase 3)"
+        },
+        {
+        "id": 2,
+        "year": "2007 - 2008",
+        "position": "IT Expert, Software Developer",
+        "company": "Mefit Ltd",
+        "location": "Northern Kordofan - Sudan",
+        "details": "Realizzazione, nell’ambito dello 'State Development Plan and the Urban Development Plans in Northern Kordofan (Sudan)', per conto della Mefit Ltd, del software per la gestione dei surveys (questionari) nelle principali città e nei villaggi.\nIl sistema è stato realizzando utilizzando tecnologia PHP/MySQL, con l'utilizzo di XML e routines JavaScript, su server Apache, per permettere l’inserimento dati in remoto e la gestione ed elaborazione da parte del team scientifico, in Italia e in Sudan."
+        },
+        {
+        "id": 3,
+        "year": "2007 - 2008",
+        "position": "IT Expert, Web Developer",
+        "company": "Comunità Europea - DMM (Direction de la Marine Marchande)",
+        "location": "Casablanca - Marocco",
+        "details": "Esperto IT in Marocco per conto della DMM (Direction de la Marine Marchande) di Casablanca, su commissione della Comunità Europea per la realizzazione di un’applicazione per la gestione delle materie pericolose in entrata nei porti marocchini. I termini di riferimento riguardavano specificamente:\n- L’analisi e la predisposizione della documentazione di architettura tecnica e funzionale dell’applicazione (denominata MARIS)\n- Lo sviluppo, su piattaforma Apache/PHP, dell’applicazione per la gestione dell’inserimento delle notificazioni via web\n- Lo sviluppo dell’interfaccia di comunicazione (invio/ricezione) dei messaggi XML che verranno scambiati tra MARIS e i partners marocchini della DMM \n- Lo sviluppo dell’interfaccia di comunicazione con il sistema europeo SSN (SafeSeaNet), per lo scambio di informazioni HazMat (Hazardous Materials)\n- Installazione e messa in sicurezza (signature, certificati, autenticazione via SSL) dell’applicazione su server della DMM"
+        },
+        {
+        "id": 4,
+        "year": "2006 - 2007",
+        "position": "Team manager, IT Expert",
+        "company": "Mefit Ltd",
+        "location": "Northern Kordofan - Sudan",
+        "details": "Team manager per lo 'State Development Plan and the Urban Development Plans in Northern Kordofan (Sudan)', per conto della Mefit Ltd. Il piano, commissionato dal Governo del Sudan, ha lo scopo di individuare I 'key-projects' per il futuro 'Five Years Development Plan of Northern Kordofan'\nI termini di riferimento del'incarico riguardano specificamente:\n- definizione, analisi ed implementazione del sistema di comunicazione necessario al progetto. Il sistema è stato realizzando utilizzando tecnologia PHP/MySQL, con l'utilizzo di XML e routines JavaScript, su server Apache;\n- assistenza alla definizione del quadro logico del progetto;\n- assistenza alla definizione del team di esperti sudanesi;\n- training agli esperti sudanesi sul sistema di comunicazione;\n- assistenza alla definizione del piano per la realizzazione dei survey;\n- training alla squadra dei surveyors sulle modalità di realizzazione dei survey;\n- controllo dello svolgimento dei survey e dell’attività dei team coordinators;\n- ricezione e verifica delle relazioni periodiche dei team leaders sudanesi;\n- controllo e verifica delle relazioni periodiche degli esperti italiani;\n- partecipazione alle riunioni periodiche con gli esperti italiani;\n- ricezione e verifica dei rapporti finali degli esperti italiani;"
+        },
+        {
+        "id": 5,
+        "year": "2006",
+        "position": "IT Expert",
+        "company": "Ministero per gli Affari Esteri - DGCS",
+        "location": "Tunisi - Tunisia",
+        "details": "Missioni in Tunisia per conto del Ministero degli Esteri-DGCS per l'analisi di un programma per la manutenzione delle celle frigorifere in 41 porti di pesca della Tunisia gestiti dall'APIP (Agence des ports et installations de pêche), nell'ambito del programma Sahara Sud. I termini di riferimento delle missioni riguardavano specificamente:\n- l'analisi dell'attuale sistema di manutenzione nelle celle frigorifere gestite dall'APIP;\n- l'analisi tecnica (inclusi termini di riferimento) per la realizzazione di un software GMAO (Gestion de la Maintenance Assistée par Ordinateur);\n- l'analisi tecnica dell'attuale network informatico, e le raccomandazioni per il suo sviluppo futuro."
+        },
+        {
+        "id": 6,
+        "year": "2005 - 2006",
+        "position": "Project evaluator",
+        "company": "Ministero per gli Affari Esteri - DGCS",
+        "location": "Rjim Maatoug - Tunisia",
+        "details": "Missioni in Tunisia per conto del Ministero degli Esteri-DGCS per la valutazione in itinere del progetto 'Rjim Maatoug'. Il progetto è inserito nell’ambito del programma Sahara Sud, con l’obiettivo di impiantare 2.000 ettari di palme da datteri e sedentarizzare la popolazione nomade locale. I termini di riferimento della missione riguardavano specificamente:\n- il coordinamento di un gruppo di esperti, comprendente un ingegnere idro-geologico ed un sociologo, finalizzato alla valutazione in itinere del progetto\n- la valutazione economica del progetto, specialmente per quanto attiene i costi dell’irrigazione e del drenaggio\n- valutazione dell’impatto e della sostenibilità del progetto\n- raccomandazioni sulle possibili estensioni delle fasi successive del progetto\n- redazione dei termini di riferimento per la costitizione di un gruppo di lavoro permanente che affianchi il project management nelle fasi successive del progetto"
+        },
+        {
+        "id": 7,
+        "year": "2005",
+        "position": "Project evaluator, IT Expert",
+        "company": "Ministero per gli Affari Esteri - DGCS",
+        "location": "Il Cairo - Egitto",
+        "details": "Missione in Egitto per conto del Ministero degli Esteri-DGCS per la valutazione finale del progetto IOM/IMIS. Il progetto IMIS (Integrated Migration Information Service) ha lo scopo di facilitare la migrazione legale proveniente dall’Egitto, attraverso un portale telematico utilizzato come “punto d’incontro” tra candidati e aziende. I termini di riferimento della missione riguardavano specificamente:\n- la valutazione tecnica del portale (www.emigration.gov.eg), le sue funzionalità e il codice sorgente\n- la valutazione economica dell’intero progetto, incluso il “data center” realizzato presso il Ministry of Manpower and Emigration, deputato alla selezione e validazione dei profili dei candidati\n- la valutazione dell’impatto e della sostenibilità del progetto, specialmente per quanto riguarda la rete creata dal project management coi fornitori di informazioni\n- raccomandazioni sulle possibili estensioni della seconda fase del progetto"
+        },
+        {
+        "id": 8,
+        "year": "2004",
+        "position": "Project evaluator",
+        "company": "Ministero per gli Affari Esteri",
+        "location": "Roma",
+        "details": "Membro di commissione del Ministero degli Esteri per la valutazione tecnica di progetti agroalimentari (Etiopia)"
+        },
+        {
+        "id": 9,
+        "year": "2003 - 2004",
+        "position": "Web developer",
+        "company": "Ministero per gli Affari Esteri",
+        "location": "Roma",
+        "details": "Sviluppo del sito della Cooperazione Italiana in Mozambico – (www.italcoopmoz.org) Ministero degli Esteri"
+        },
+        {
+        "id": 10,
+        "year": "2003",
+        "position": "IT Expert",
+        "company": "Ministero per gli Affari Esteri - DGCS",
+        "location": "Maputo - Mozambico",
+        "details": "Missione in Mozambico per conto del Ministero degli Esteri-DGCS in qualità di esperto IT per il progetto di e-government del Governo del Mozambico (GovNet). I termini di riferimento della missione riguardavano specificamente:\n- l’individuazione della situazione attuale della rete telematica del Governo (Governo centrale, Ministeri, uffici regionali a Maputo e nelle province), inclusa la situazione dell’hardware\n- contatti con i principali providers IT, a livello locale ed internazionale, per lo studio di proposte di sviluppo della rete telematica governativa\n- integrazione dell’attuale rete governativa col progetto e – ove necessario – progettazione della nuova rete\n- studio di fattibilità sulle possibili ulteriori estensioni del progetto GovNet"
+        }
+    ],
+    "teacher": [
+        {
+        "id": 1,
+        "year": "2003 - 2007",
+        "position": "ECDL",
+        "company": "Università La Sapienza - Roma",
+        "location": "in sede",
+        "details": "Corsi di formazione per la Patente Europea per l’uso del Computer - ECDL, per complessive 1000 ore (circa)"
+        },
+        {
+        "id": 2,
+        "year": "2005",
+        "position": "Database SQL",
+        "company": "Università La Sapienza - Roma",
+        "location": "Istituto Luzzatti - Palestrina",
+        "details": "Corso di formazione su programmazione database SQL, per complessive 30 ore"
+        },
+        {
+        "id": 3,
+        "year": "2005",
+        "position": "Database SQL",
+        "company": "Università La Sapienza - Roma",
+        "location": "Eafra - Frosinone",
+        "details": "Corso di formazione su programmazione database SQL, per complessive 35 ore"
+        },
+        {
+        "id": 4,
+        "year": "2005",
+        "position": "Linguaggi di sviluppo C, PHP e database mySQL",
+        "company": "Università La Sapienza - Roma",
+        "location": "Eafra - Frosinone",
+        "details": "Due corsi di formazione su linguaggi di sviluppo C, PHP e database mySQL, per complessive 80 ore"
+        },
+        {
+        "id": 5,
+        "year": "2005",
+        "position": "Linguaggi di sviluppo C, PHP e database mySQL",
+        "company": "Università La Sapienza - Roma",
+        "location": "Istituto Luzzatti - Palestrina",
+        "details": "Corso di formazione su linguaggi di sviluppo C, PHP e database mySQL, per complessive 42 ore"
+        },
+        {
+        "id": 6,
+        "year": "2005",
+        "position": "Database SQL",
+        "company": "Università La Sapienza - Roma",
+        "location": "Istituto Luzzatti - Palestrina",
+        "details": "Corso di formazione su programmazione database SQL, per complessive 30 ore"
+        },
+        {
+        "id": 7,
+        "year": "2005",
+        "position": "Linguaggio di sviluppo C",
+        "company": "Università La Sapienza - Roma",
+        "location": "ITIS Majorana - Latina",
+        "details": "Corso di formazione su linguaggio di sviluppo C, per complessive 25 ore"
+        },
+        {
+        "id": 8,
+        "year": "2004",
+        "position": "Informatica di base",
+        "company": "Università La Sapienza - Roma",
+        "location": "SIPEMI - Roma",
+        "details": "Corso di formazione informatica di base, per complessive 35 ore"
+        },
+        {
+        "id": 9,
+        "year": "2004",
+        "position": "Tecnologie web",
+        "company": "Università La Sapienza - Roma",
+        "location": "Istituto Seraphicum - Roma",
+        "details": "Corso di formazione su tecnologie web (configurazione e gestione server Apache, PHP e SQL), per complessive 100 ore"
+        },
+        {
+        "id": 10,
+        "year": "2004",
+        "position": "Linguaggio di sviluppo C",
+        "company": "Università La Sapienza - Roma",
+        "location": "IISS Di Vittorio - Roma",
+        "details": "Corso di formazione su linguaggio di sviluppo C, per complessive 10 ore"
+        },
+        {
+        "id": 11,
+        "year": "2004",
+        "position": "Adobe InDesign",
+        "company": "Istituto Poligrafico e Zecca dello Stato – Roma",
+        "location": "in sede",
+        "details": "Corso di formazione su Adobe InDesign, per complessive 64 ore"
+        },
+        {
+        "id": 12,
+        "year": "2004",
+        "position": "Linguaggio di sviluppo C",
+        "company": "Università La Sapienza - Roma",
+        "location": "ITIS Reggio - Isola Liri",
+        "details": "Corso di formazione su linguaggio di sviluppo C, per complessive 35 ore"
+        },
+        {
+        "id": 13,
+        "year": "2003",
+        "position": "Linguaggio di sviluppo C",
+        "company": "Università La Sapienza - Roma",
+        "location": "ITIS Majorana - Latina",
+        "details": "Corso di formazione su linguaggio di sviluppo C, per complessive 30 ore"
+        },
+        {
+        "id": 14,
+        "year": "2003",
+        "position": "Informatica di base",
+        "company": "CM Sistemi - Roma",
+        "location": "in sede",
+        "details": "Corso di formazione informatica di base – Progetto Parnaso, per complessive 20 ore"
+        },
+        {
+        "id": 15,
+        "year": "2002",
+        "position": "Linguaggi di sviluppo C e PHP",
+        "company": "Link - Roma",
+        "location": "in sede",
+        "details": "Corso di formazione su linguaggi di sviluppo C e PHP, per complessive 35 ore"
+        },
+        {
+        "id": 16,
+        "year": "2000 - 2001",
+        "position": "Linguaggio di sviluppo 4th Dimension",
+        "company": "CNR/IME - Roma",
+        "location": "in sede",
+        "details": "Corso di formazione su linguaggio di sviluppo 4th Dimension e sui principali strumenti grafici, per complessive 50 ore (circa)"
+        },
+        {
+        "id": 17,
+        "year": "1998",
+        "position": "Linguaggio di sviluppo 4th Dimension",
+        "company": "Krenesiel - Sassari",
+        "location": "in sede",
+        "details": "Corso di formazione su linguaggio di sviluppo 4th Dimension, per complessive 70 ore"
+        },
+        {
+        "id": 18,
+        "year": "1997",
+        "position": "Realizzazione di un BBS (bulletin board system)",
+        "company": "Trainet gruppo Telecom - Roma",
+        "location": "in sede",
+        "details": "Corso di istruzione sulla realizzazione di un BBS (bulletin board system), utilizzando software FirstClass, per complessive 100 ore"
+        },
+        {
+        "id": 19,
+        "year": "1994",
+        "position": "Linguaggio di sviluppo 4th Dimension",
+        "company": "Ancitel - Roma",
+        "location": "in sede",
+        "details": "Corso di formazione su linguaggio di sviluppo 4th Dimension, per complessive 20 ore"
+        },
+        {
+        "id": 20,
+        "year": "1992",
+        "position": "Informatica di base",
+        "company": "CONI/ACNOE - Roma",
+        "location": "in sede",
+        "details": "Corso di formazione informatica di base, per complessive 50 ore"
+        },
+        {
+        "id": 21,
+        "year": "1986",
+        "position": "Informatica di base",
+        "company": "Liceo Lucrezio Caro - Roma",
+        "location": "in sede",
+        "details": "Corso di formazione informatica di base, per complessive 30 ore"
+        }
+    ]
+
+}
